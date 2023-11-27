@@ -1,4 +1,12 @@
 # SSO-keycloak-docker (попа боль)
+
+```
+sudo docker container list -a (отсюда копировать id кластера)
+sudo pg_ctlcluster 14 main start
+Далее зайти по адресу localhost:8080
+```
+
+
 1. Был выставлен запрет на входящие соединения и разрешение на исходящие соединения. Также были выставлены разрешения для портов 80/tcp и 1488(ssh)
 
 ![image](images/2.jpg)
@@ -51,19 +59,19 @@
 ![image](images/roll.jpg)
 
 
-12. Получение токена по паролю POST
+13. Получение токена по паролю POST
 
 ![image](images/14.jpg)
 
-13. Получение токена по refresh токену POST http://localhost:8080/realms/test/protocol/openid-connect/token 
+14. Получение токена по refresh токену POST http://localhost:8080/realms/test/protocol/openid-connect/token 
 
 ![image](images/15.jpg)
 
-14. Получение пользователей GET http://localhost:8080/realms/realm/protocol/openid-connect/userinfo
+15. Получение пользователей GET http://localhost:8080/realms/realm/protocol/openid-connect/userinfo
 
 ![image](images/16.jpg)
 
-15. Получение информации про реалм GET http://localhost:8080/realms/test/.well-known/uma2-configuration
+16. Получение информации про реалм GET http://localhost:8080/realms/test/.well-known/uma2-configuration
 
 ![image](images/17.jpg)
 
