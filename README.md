@@ -18,7 +18,7 @@
 
 ![image](images/6.jpg)
 
-5. Был собран [dockerfile](/dockerfile).
+5. Был собран [dockerfile](dockerfile).
 > 4 часа потерянного времени. После того, как запустилось - я начал верить в бога
 
 ![image](images/7.jpg)
@@ -36,7 +36,7 @@
 
 ![image](images/10.jpg)
 
-9. Был создан Client = new-xottab-client
+9. Ещё добавил скрипт на автовыполнение в 10:00 ~Спасибо Никите, этим поделился~
 
 ![image](images/12.jpg)
 
