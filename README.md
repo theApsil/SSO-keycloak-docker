@@ -3,6 +3,7 @@
 ```
 sudo docker container list -a (отсюда копировать id кластера)
 sudo pg_ctlcluster 14 main start
+sudo docker start <auth_cluster_id>
 Далее зайти по адресу localhost:8080
 ```
 
