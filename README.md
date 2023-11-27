@@ -45,7 +45,10 @@
 
 12. Роль + пользак
 
-![image](images/14.jpg)
+![image](images/client.jpg)
+![image](images/user.jpg)
+![image](images/role.jpg)
+![image](images/roll.jpg)
 
 
 12. Получение токена по паролю POST
