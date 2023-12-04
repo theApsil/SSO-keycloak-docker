@@ -23,6 +23,7 @@ sudo docker start <auth_cluster_id>
 4. Была установлена postgresql. Также была проведена первичная настройка. Установлен новый пользователь `theapsil` для keycloak
 
 ![image](images/5.jpg)
+![image](images/19.jpg)
 
 5. Была произведена попытка подключения к пользователю `sshfirewall` по порту `1488`
 ![image](images/4.jpg)
